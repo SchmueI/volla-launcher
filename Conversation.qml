@@ -70,6 +70,7 @@ Page {
                             if (contact["phone.work"] !== undefined) numbers.push(contact["phone.work"])
                             if (contact["phone.home"] !== undefined) numbers.push(contact["phone.home"])
                             if (contact["phone.other"] !== undefined) numbers.push(contact["phone.other"])
+//                            if (contact["phone.signal"] !== undefined) numbers.push(contact["phone.signal"])
                             break
                         }
                     }

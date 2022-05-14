@@ -151,16 +151,19 @@ ApplicationWindow {
             'SendEmailToWork': 20023,
             'SendEmailToOther': 20024,
             'OpenContact' : 20025,
-            'OpenApp' : 20026
+            'OpenApp' : 20026,
+            'OpenSignalContact': 20027
         }
-        property var actionName: {"SendSMS": qsTr("Send message"), "SendEmail": qsTr("Send email"),
+        property var actionName: {"SendSMS": qsTr("Send message"),
+            "SendEmail": qsTr("Send email"),
             "SendEmailToHome": qsTr("Send home email"), "SendEmailToWork": qsTr("Send work email"),
             "SendEmailToOther": qsTr("Send other email"), "MakeCall": qsTr("Call"),
             "MakeCallToMobile": qsTr("Call on cell phone"), "MakeCallToHome": qsTr("Call at home"),
             "MakeCallToWork": qsTr("Call at work"), "MakeCallToOther": qsTr("Call other phone"),
             "CreateNote": qsTr("Create note"), "SearchWeb": qsTr("Search web"),
             "OpenURL": qsTr("Open in browser"), "AddFeed": qsTr("Add feed to collection"),
-            "OpenContact" : qsTr("Open Contact")
+            "OpenContact" : qsTr("Open Contact"),
+            "OpenSignalContact": qsTr("Open Contact in Signal")
         }
         property var swipeIndex: {
             'Preferences' : 0,

@@ -49,6 +49,9 @@ WorkerScript.onMessage = function(message) {
                 if (selectedObj["phone.mobile"] !== undefined && selectedObj["phone.mobile"].length > 0) {
                     filteredSuggestionObj.push([actionName.SendSMS, actionType.SendSMS])
                 }
+                if (selectedObj["phone.signal"] !== undefined && selectedObj["phone.signal"].length > 0) {
+                    filteredSuggestionObj.push([actionName.OpenSignalContact, actionType.OpenSignalContact])
+                }
                 var emailAddressCount = 0
                 if (selectedObj["email.home"] !== undefined && selectedObj["email.home"].length > 0) {
                     emailAddressCount++
